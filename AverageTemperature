@@ -1,0 +1,17 @@
+
+package CviceniT3;
+
+
+public class Uloha07 {
+    public static void main(String[] args) {
+        //in
+        int TemIn6 = 8;
+        int TemIn12 = 13;
+        int TemIn18 = 12;
+        //calc
+        double AverageTem = ((double)TemIn6 + TemIn12 + TemIn18*2)/4;
+        //out
+        System.out.println("Dnes průměrná teplota je: " + AverageTem + "°");
+    }
+    
+}
